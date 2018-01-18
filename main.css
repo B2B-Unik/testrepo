@@ -3,6 +3,9 @@
 /* Style is applied to all <p> HTML Tags. */
 p {
     color:purple;
+    padding: 5px;
+    border: 1px solid red;
+    margin: 10px
 }
 
 /* Style applies to a particular class.*/
@@ -34,5 +37,19 @@ Ex:
 body {
     font-family: Arial, sans-serif;
 }
-/* Arial is primary font, sans-serif is a fall back in the event Arial can't be loaded.
+/* Arial is primary font, sans-serif is a fall back in the event Arial can't be loaded.*/
 
+* {
+    box-sizing: border-box;
+}
+aside {
+    border: 1px solid black;
+    width: 30%;
+    float: left;
+}
+
+main {
+    border: 1px dashed red;
+    width: 70%;
+    float: left;
+}
