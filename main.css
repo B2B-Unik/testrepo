@@ -1,0 +1,38 @@
+/* Comment */
+
+/* Style is applied to all <p> HTML Tags. */
+p {
+    color:purple;
+}
+
+/* Style applies to a particular class.*/
+
+/* 
+Ex: 
+<h1 class="highlight"> My First Blog Post </h1>
+<p> The first paragraph of my awesome blog post </p>
+<p class="highlight"> The second paragraph. </p>
+*/
+
+/* This code would make the h1 and the second paragraph font yellow. */
+.highlight {
+    color: yellow;
+}
+
+/* IDs are for when you want to style one unique element on the page.
+Each HTML element can only have one ID, and each ID on your webpage has to be unique.
+Alerts and notifications are a great example of when you might want to use an ID. */
+/*
+Ex:
+<p id="alert"></p>
+*/
+#alert {
+    background-color: red;
+}
+
+/* Font-family */
+body {
+    font-family: Arial, sans-serif;
+}
+/* Arial is primary font, sans-serif is a fall back in the event Arial can't be loaded.
+
